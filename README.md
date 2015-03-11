@@ -25,7 +25,7 @@ $ /Applications/nwjs.app/Contents/MacOS/nwjs . API_TOKEN
 
 んでもって、こんな感じのURLで実際にTシャツができて、販売できます。
 
-https://suzuri.jp/kentaro/175356/t-shirt/gl/white
+https://suzuri.jp/kentaro/175372/t-shirt/gl/white
 
 ## License
 
