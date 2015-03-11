@@ -19,7 +19,7 @@ $ /Applications/nwjs.app/Contents/MacOS/nwjs . API_TOKEN
 
 ![](./screenshot-before.png)
 
-ボタンを適当に押すと、suzuri上でTシャツが作成されて、以下のように結果が表示されます。
+ボタンを適当に押すと、SUZURI上でTシャツが作成されて、以下のように結果が表示されます。
 
 ![](./screenshot-after.png)
 
