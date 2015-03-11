@@ -13,14 +13,13 @@ $(function() {
     $('#surisuri-button').click(function () {
         var c = $('#canvas');
         var v = $('#camera');
-        c.get(0).getContext('2d').drawImage(v.get(0), 0, 0, 300, 300);
+        c.get(0).getContext('2d').drawImage(v.get(0), 0, 0, 320, 240);
 
         request({
             url: 'https://suzuri.jp/api/v1/materials',
             method: 'POST',
             json: true,
             headers: {
-                // 'Content-Type': 'application/json',
                 'Authorization': 'Bearer ' + gui.App.argv[0]
             },
             body: {

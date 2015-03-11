@@ -9,9 +9,16 @@
         padding: 3%;
       }
       .image-container {
+        display: table-cell;
+        vertical-align: middle;
         border: 1px solid #333;
         float: left;
-        margin-right: 3%;
+        margin-right: 1%;
+        height: 320px;
+      }
+      #camera {
+        vertical-align: middle;
+        height: 320px;
       }
       #canvas {
         position: absolute;
@@ -28,11 +35,11 @@
         </p>
       </div>
       <div class="image-container">
-        <video id="camera" width="300" height="300" autoplay></video>
-        <canvas id="canvas" width="300" height="300"></canvas>
+        <video id="camera" width="320" height="240" autoplay></video>
+        <canvas id="canvas" width="320" height="240"></canvas>
       </div>
       <div class="image-container">
-        <img id="item-image" src="https://dijsur42hqnz1.cloudfront.net/assets/common/suzuri-logo-v-1cbabae0d49ccb791858fdc8fdd1c9f0.svg" width="300" height="300" />
+        <img id="item-image" src="https://dijsur42hqnz1.cloudfront.net/assets/common/suzuri-logo-v-1cbabae0d49ccb791858fdc8fdd1c9f0.svg" width="320" height="320" />
       </div>
     </div>
   </body>
