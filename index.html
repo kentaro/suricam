@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Suricam</title>
+    <script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="suricam.js"></script>
+    <style type="text/css">
+      body {
+        padding: 3%;
+      }
+      .image-container {
+        border: 1px solid #333;
+        float: left;
+        margin-right: 3%;
+      }
+      #canvas {
+        position: absolute;
+        left: -9999px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Suricam</h1>
+    <div id="container">
+      <div>
+        <p>
+          <input id="surisuri-button" type="submit" value="Surisuri" />
+        </p>
+      </div>
+      <div class="image-container">
+        <video id="camera" width="300" height="300" autoplay></video>
+        <canvas id="canvas" width="300" height="300"></canvas>
+      </div>
+      <div class="image-container">
+        <img id="item-image" src="https://dijsur42hqnz1.cloudfront.net/assets/common/suzuri-logo-v-1cbabae0d49ccb791858fdc8fdd1c9f0.svg" width="300" height="300" />
+      </div>
+    </div>
+  </body>
+</html>

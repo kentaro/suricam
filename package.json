@@ -1,0 +1,33 @@
+{
+  "name": "suricam",
+  "version": "0.0.1",
+  "main": "index.html",
+  "dependencies": {
+    "request": "~2.53.0"
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "window": {
+    "title": "Suricam",
+    "width": 800,
+    "height": 600,
+    "toolbar": false,
+    "frame": true
+  },
+  "description": "Create Suzuri Items from WebCam",
+  "author": "Kentaro Kuribayashi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kentaro/suricam.git"
+  },
+  "keywords": [
+    "suzuri",
+    "node-webkit"
+  ],
+  "bugs": {
+    "url": "https://github.com/kentaro/suricam/issues"
+  },
+  "homepage": "https://github.com/kentaro/suricam"
+}
